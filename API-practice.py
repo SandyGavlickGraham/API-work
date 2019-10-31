@@ -3,6 +3,7 @@ import requests
 from key import key
 app = Flask(__name__)
 
+
 search_url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
 details_url = "https://maps.googleapis.com/maps/api/place/details/json"
 
